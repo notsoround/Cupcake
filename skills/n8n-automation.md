@@ -35,7 +35,7 @@ You have access to a full n8n automation platform at `https://automate.hales.ai`
 - Update event: modify existing events
 
 ### Voice Commands
-- Call Matt: trigger outbound Vapi call to +17867082214
+- Call Matt: trigger outbound Vapi call to ${MATT_PHONE}
 - TTS: generate speech via ElevenLabs
 
 ## API Details
@@ -43,5 +43,5 @@ You have access to a full n8n automation platform at `https://automate.hales.ai`
 - Webhook base: https://automate.hales.ai/webhook/
 - Auth: API key in env (N8N_API_KEY)
 - Matt's Gmail: matt@hales.ai
-- Matt's Telegram: 5803796679
-- Matt's Phone: +17867082214
+- Matt's Telegram ID: stored in env
+- Matt's Phone: stored in env (MATT_PHONE)
