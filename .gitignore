@@ -1,0 +1,26 @@
+# Secrets - NEVER commit these
+.env
+.env.*
+*.key
+*.pem
+credentials.*
+secrets.*
+
+# OpenClaw local state
+.openclaw/
+memory/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Sub-repos (tracked separately)
+cupcake-opolis/
+hales-ai-website/
+openclaw-source/
+
+# Stray temp/recording files
+file_0*
